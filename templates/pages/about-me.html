@@ -1,0 +1,98 @@
+{% extends 'layout.html ' %}
+{% load static %}
+{% include 'partials/_topmenu.html,' %}
+
+
+{% block content %}
+<link href="{% static '/css/row.css'  %}" rel="stylesheet" type="text/css">
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card card-body h-100  border-info" id="profile-wrapper">
+                <center>
+                    <img id="profile-pic" class="rounded-circle w-75"
+                         src="https://media-exp1.licdn.com/dms/image/C4E03AQFRQqI4D7UT5w/profile-displayphoto-shrink_200_200/0/1614763614600?e=1620864000&v=beta&t=8IkBE9ZE_OfejXjOI9rPTSXQCrFn64wPbaEpCSsbXds">
+                    <hr>
+                    <h4>Hi I'm Yunus Emre!</h4>
+                    <p>Junior Python Developer</p>
+			</div>
+        </div>
+        </center>
+
+        <div class="col-md-9">
+            <div class="card card-body h-100  border-info">
+                <h4>About Me</h4>
+                <hr>
+                <p>Ever since I was a little kid, software development has been my passion. I published my first blog
+                    when I was 12 years old. And that was just the start. In next years ı when I m studying at
+                    university. I met with web programming books at the university library. And I built simple web pages
+                    with Html.
+
+                </p>
+
+                <p>Last year I met with python and I m still trying to explore new things for improving myself.
+                    Therefore I decided to be a software developer. I did all of this with my passion, as I was said in
+                    the beginning.</p>
+
+                <br>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>My Experience as a Developer</h5>
+                <hr>
+                <p>As everyone knows, one of the ways to improve yourself is to make theoretical knowledge permanent
+                    by practicing.Therefore I created websites.When I'm doing my projects there were too many problems.
+                    About security, software,SEO etc.But all of these taught me new things and improved me.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>What I Know</h5>
+                <hr>
+                <br>
+                <p>Python, HTML5, Bootstrap, Linux, MySQL, Wordpress</p>
+                <p>Python(Django-Pandas-Web Scraping)</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>How I Learn</h5>
+                <hr>
+                <p>Research & Reverse Engineer & Build Prototypes First.</p>
+
+                <p>I can learn just about anything by having a final product to tear apart piece by piece. I break the
+                    code where I need to figure out why things work the way they do. Documentation is just a
+                    reference.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card card-body h-100">
+                <h5>My Projects</h5>
+                <hr>
+                <p>My Websites:</p>
+                <a class="font-weight-bold text-primary" href="http://sinavmetre.com">sinavmetre.com<br>
+                    <a class="font-weight-bold text-primary" href="http://inonusosyal.com">inonusosyal.com<br>
+                        <a class="font-weight-bold text-primary" href="http://firatsosyal.com">firatsosyal.com</a>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <img class="img-fluid" src="{% static 'media/yunusemrekarakus.png' %}">
+</div>
+
+
+</body>
+</html>
+{% endblock %}

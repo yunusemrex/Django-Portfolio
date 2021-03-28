@@ -1,0 +1,28 @@
+a{
+    color: #631feb;
+}
+text-info:active {
+    color:#631feb;
+}
+
+
+.container {
+  background-color:#ffffff;
+  position: solid ;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.text-info {
+    color: #631feb!important;
+}
+
+.body {
+    background-color:#ecedf5;
+}
+
+.ml-5, .mx-5 {
+    background-color: white;
+    margin-left: 3rem!important;
+}

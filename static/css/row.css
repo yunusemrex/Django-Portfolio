@@ -1,0 +1,11 @@
+.card {
+    border: 1px solid #ecedf5;
+}
+
+.border-info {
+    border-color: #ecedf5!important;
+}
+
+body {
+    background-color:#ecedf5;
+}

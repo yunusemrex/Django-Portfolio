@@ -1,0 +1,76 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% include 'partials/_topmenu.html' %}
+{% block content%}
+<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+<div class="p-3">
+    <div class="container-fluid ">
+        <center>
+            <h3 class="text-dark">My Projects</h3>
+        </center>
+        <center>
+            <p class="lead">As everyone knows, one of the ways to improve yourself is to make
+                theoretical knowledge permanent
+                <br>by practicing.Therefore I created websites.When
+                I'm doing my projects there were too many problems.
+                <br>About security, software, seo etc.But all of these taught me new things and improved me.<br>
+
+            <hr>
+
+        </center>
+    </div>
+    <div>
+    </div>
+    <div class="card-group p-5 mt-2 bg-white ">
+        <div class="card">
+            <img class="card-img-top" src="{% static 'media/sinavmetre.com.png' %}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Sınavmetre(Blog)</h5>
+                <p class="card-text">Sınavmetre is an information website for students about High School and University
+                    exams.
+                    <br> Students can find information about education news, exam topics, points, and ranks.<br>
+                <hr>
+                Used Technologies:PHP, Wordpress, Linux, HTML, Python(Pandas)</p>
+                <p>Visit: <a class="font-weight-bold text-primary" href="http://sinavmetre.com">sinavmetre.com</a></p>
+                <p class="card-text"><small class="text-muted">Published date 9 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="{% static 'media/inonusosyal.com.png' %}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">İnönü Sosyal(Community)</h5>
+                <p class="card-text">İnönü Sosyal is special community platfrom of Malatya İnönü University.
+                    <br> Students can contact each other and share them's opinions. They can create
+                    <br> advertisements.For job or trade
+                <hr>
+                Used Technologies:PHP, Flarum(Beta), HTML, CSS, Linux</p>
+                <p>Visit: <a class="font-weight-bold text-primary" href="http://inonusosyal.com">inonusosyal.com</a></p>
+                <p class="card-text"><small class="text-muted">Published 4 month ago</small></p>
+            </div>
+        </div>
+        <div class="card ">
+            <img class="card-img-top" src="{% static 'media/firatsosyal.com.png' %}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Fırat Sosyal(Community)</h5>
+                <p class="card-text">Fırat Sosyal is special community platfrom of Elazığ Fırat University.
+                    <br> Students can contact each other and share them's opinions. They can create
+                    <br> advertisements.For job or trade
+                <hr>
+                Used Technologies:PHP, Flarum(Beta), HTML, CSS, Linux</p>
+                <p>Visit: <a class="font-weight-bold text-primary" href="http://firatsosyal.com">firatsosyal.com</a></p>
+                <p class="card-text"><small class="text-muted">Published Date 3 month ago</small></p>
+            </div>
+        </div>
+    </div>
+            <center>
+        <div class="card-group bg-white">
+            <p>I used different technologies on my websites.
+                Python, HTML,CSS, Bootstrap, MySQL, Wordpress(CMS),Flarum(Beta),Linux OS <br><br>
+            This web site developed with Python Django Framework</p>
+    </div>
+                 </center>
+
+
+</div>
+</div>
+{% endblock %}

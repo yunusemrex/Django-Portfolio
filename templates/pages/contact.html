@@ -1,0 +1,58 @@
+{% extends 'layout.html' %}
+{% include 'partials/_topmenu.html' %}
+{% include 'partials/_footer.html' %}
+{% block content %}
+{% load static %}
+<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+<center>
+    <div class="continer-fluid p-3">
+    </div>
+    <h5>Contact Me</h5>
+    <div class="card-body">
+        <p class="card-text ">You can contact me on <span class="font-weight-bold text-info">yunusemreiletisim23@gmail.com </span>
+        </p>
+        <a href="mailto:yunusemreiletisim23@gmail.com" target="_blank" class="btn btn-success">Email Me</a>
+    </div>
+
+<br>
+    <div class="container-fluid">
+        <div class="row">
+            <h4 class="mt-3">My Accounts</h4>
+            <div class="row p-5">
+                <div class="col">
+                    <a href="https://www.linkedin.com/in/yunus-emre-karakus/" title="LinkedIn - Yunus Emre Karakuş"><p class="my-0 mr-md-auto font-weight-normal"><img
+                            src="{% static 'media/social_linkedin.png ' %}" , width="32" , height="32"></p></a>
+                    <hr>
+                    <div class="card text-white bg-primary mb-3 mt-2" style="max-width: 18rem;">
+                        <div class="card-header font-weight-bold ">LinkedIn</div>
+                        <div class="card-body">
+                            <p class="card-text">When we are looking for a job or when we coding something, sometimes codes are not enough for us. We need a strong network. You can check my LinkedIn profile and send a connection requests.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <a href="https://github.com/yunusemrekarakus" title="Github - Yunus Emre Karakuş"><p class="my-0 mr-md-auto font-weight-normal"><img
+                            src="{% static 'media/social_github.png ' %}" , width="32" , height="32"></p></a>
+                    <hr>
+                    <div class="card text-white bg-dark  mb-3 mt-2" style="max-width: 18rem;">
+                        <div class="card-header font-weight-bold">GitHub</div>
+                        <div class="card-body">
+                            <p class="card-text">I am trying to improve myself by following open source projects from GitHub.At the same time, I'm creating repositories for my projects.Everyone can check my projects and get in touch with me.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <a href="https://www.instagram.com/karakusemre_/" title="Instagram - Yunus Emre Karakuş"><p class="my-0 mr-md-auto font-weight-normal"><img
+                            src="{% static 'media/social_instagram.png ' %}" , width="32" , height="32"></p></a>
+                    <hr>
+                    <div class="card text-white bg-danger mb-3 mt-2" style="max-width: 18rem;">
+                        <div class="card-header font-weight-bold">Instagram</div>
+                        <div class="card-body">
+                            <p class="card-text">Social media comes to be a part of our lives.Especially Social media has a big effect on digital marketing. Thus I'm using Instagram. You can add me and follow my projects and brands.</p>
+                        </div>
+                    </div>
+                </div>
+
+</center>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% include 'partials/_topmenu.html' %}
+
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}"/>
+<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+<div>
+    {% for post in posts %}
+    <div class="container p-5 mt-3 rounded-0">
+        <h2><a class="text-info" href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+        <hr>
+        <div class="container-fluid">
+            <p>{{ post.summaries|linebreaksbr }}</p>
+            <footer class="blockquote-footer text-warning ">{{ post.author }}</footer>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+{% endblock %}
