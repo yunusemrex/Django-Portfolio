@@ -18,7 +18,7 @@ $ git clone https://github.com/yunusemrekarakus/Django-Portfolio.git
 
 -Create a virtual environment and activate it.
 
-#-Install the requirements for the project.
+# Install the requirements for the project.
 
 $ pip install -r requirements.txt
 
